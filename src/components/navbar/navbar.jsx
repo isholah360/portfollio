@@ -21,13 +21,11 @@ const Navbar = () => {
   const blogIn = useRef(null);
   const contact = useRef(null);
   const contactIn = useRef(null);
-  const hoverImg = useRef(null);
   const hoverPort = useRef(null);
   const hoverResume = useRef(null);
   const hoverCont = useRef(null);
   const hoverAbou = useRef(null);
   const hoverBlog = useRef(null);
-  const premiere = useRef(null);
   const [displayz, setDisplayz] = useState(true);
 
   const show = () => {
@@ -307,7 +305,7 @@ const Navbar = () => {
           close
         </button>
         <div ref={state} className="inside">
-          <About />
+          {/* <About /> */}
         </div>
       </div>
       <div ref={showz} className="aboutz">
@@ -315,7 +313,7 @@ const Navbar = () => {
           close
         </button>
         <div ref={statez} className="inside">
-          <Resume />
+          {/* <Resume /> */}
         </div>
       </div>
       <div ref={port} className="aboutz">
@@ -323,7 +321,7 @@ const Navbar = () => {
           close
         </button>
         <div ref={ports} className="inside">
-          <Portfolio />
+          {/* <Portfolio /> */}
         </div>
       </div>
       <div ref={blog} className="aboutz">
@@ -331,7 +329,7 @@ const Navbar = () => {
           close
         </button>
         <div ref={blogIn} className="inside">
-          <Blog />
+          {/* <Blog /> */}
         </div>
       </div>
       <div ref={contact} className="aboutz">
@@ -339,7 +337,7 @@ const Navbar = () => {
           close
         </button>
         <div ref={contactIn} className="inside">
-          <Contact />
+          {/* <Contact /> */}
         </div>
       </div>
       <img className="himg" ref={hoverAbou} src="assets/about.jpg" alt="" />
