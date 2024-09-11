@@ -1,21 +1,22 @@
-// import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import "./navbar.css";
+import Nav from "../nav/nav";
 // import gsap from "gsap";
 // import { Power3 } from "gsap";
 // import { About, Blog, Contact, Portfolio, Resume } from "../../pages";
 
 const Navbar = () => {
-  // const node1 = useRef(null);
-  // const nodea = useRef(null);
-  // const nodeb = useRef(null);
-  // const nodec = useRef(null);
-  // const noded = useRef(null);
-  // const nodee = useRef(null);
+  const node1 = useRef(null);
+  const nodea = useRef(null);
+  const nodeb = useRef(null);
+  const nodec = useRef(null);
+  const noded = useRef(null);
+  const nodee = useRef(null);
   // const showing = useRef(null);
-  // const showz = useRef(null);
+  // consReft showz = useRef(null);
   // const state = useRef(null);
   // const statez = useRef(null);
-  // const port = useRef(null);
+  // const port = use(null);
   // const ports = useRef(null);
   // const blog = useRef(null);
   // const blogIn = useRef(null);
@@ -250,50 +251,50 @@ const Navbar = () => {
     <>
       <div>
         <div className= "navbar" >
-          {/* <ul ref={node1}>
+          <ul ref={node1}>
             <li
               className="lots"
               ref={nodea}
               // onClick={show}
-              onMouseLeave={changeAbo}
-              onMouseEnter={chgAbo}
+              // onMouseLeave={changeAbo}
+              // onMouseEnter={chgAbo}
             >
               About
             </li>
             <li
               ref={nodeb}
               // onClick={showResume}
-              onMouseLeave={changeResume}
-              onMouseEnter={chgResume}
+              // onMouseLeave={changeResume}
+              // onMouseEnter={chgResume}
             >
               Resume
             </li>
             <li
               ref={nodec}
               // onClick={showPort}
-              onMouseLeave={changePort}
-              onMouseEnter={chgPort}
+              // onMouseLeave={changePort}
+              // onMouseEnter={chgPort}
             >
               Portfolio
             </li>
             <li
               ref={noded}
               // onClick={showBlog}
-              onMouseLeave={changeBlog}
-              onMouseEnter={chgBlog}
+              // onMouseLeave={changeBlog}
+              // onMouseEnter={chgBlog}
             >
               Blog
             </li>
             <li
               ref={nodee}
               // onClick={showContact}
-              onMouseLeave={changeCont}
-              onMouseEnter={chgCont}
+              // onMouseLeave={changeCont}
+              // onMouseEnter={chgCont}
             >
               Contact
             </li>
             <li></li>
-          </ul> */}
+          </ul>
         </div>
         {/* <div className="farcover" onClick={showMenu}>
           <div className="farbar topit"></div>
@@ -310,6 +311,7 @@ const Navbar = () => {
           ABout
         </div>
       </div>
+      <Nav/>
       {/* <div ref={showz} className="aboutz">
         <button ref={close} className="close" >
           close
