@@ -12,9 +12,9 @@ const Navbar = () => {
   const nodec = useRef(null);
   const noded = useRef(null);
   const nodee = useRef(null);
-  // const showing = useRef(null);
-  // consReft showz = useRef(null);
-  // const state = useRef(null);
+  const showing = useRef(null);
+  // const showz = useRef(null);
+  const state = useRef(null);
   // const statez = useRef(null);
   // const port = use(null);
   // const ports = useRef(null);
@@ -25,43 +25,43 @@ const Navbar = () => {
   // const hoverPort = useRef(null);
   // const hoverResume = useRef(null);
   // const hoverCont = useRef(null);
-  // const hoverAbou = useRef(null);
+  const hoverAbou = useRef(null);
   // const hoverBlog = useRef(null);
-  // const [displayz, setDisplayz] = useState(true);
+  const [displayz, setDisplayz] = useState(true);
 
-  // const show = () => {
-  //   setDisplayz(!true);
-  //   state.current.style.display = "show";
-  //   gsap.fromTo(
-  //     [showing.current, state.current],
-  //     { y: "100vh" },
-  //     {
-  //       y: "0",
-  //       display: "flex",
-  //       duration: 0.7,
-  //       ease: Power3.outIn,
-  //       transformOrigin: "left",
-  //       delay: 0.5,
-  //       stagger: { amount: 1 },
-  //     }
-  //   );
-  // };
-  // const closer = () => {
-  //   gsap.fromTo(
-  //     [state.current, showing.current],
-  //     { y: "0vh" },
-  //     {
-  //       y: "100vh",
-  //       display: "none",
-  //       duration: 0.7,
-  //       ease: Power3.outIn,
-  //       transformOrigin: "left",
-  //       delay: 0.5,
-  //       stagger: { amount: 1 },
-  //     }
-  //   );
-  //   state.current.style.display = "about";
-  // };
+  const show = () => {
+    setDisplayz(!true);
+    state.current.style.display = "show";
+    gsap.fromTo(
+      [showing.current, state.current],
+      { y: "100vh" },
+      {
+        y: "0",
+        display: "flex",
+        duration: 0.7,
+        ease: Power3.outIn,
+        transformOrigin: "left",
+        delay: 0.5,
+        stagger: { amount: 1 },
+      }
+    );
+  };
+  const closer = () => {
+    gsap.fromTo(
+      [state.current, showing.current],
+      { y: "0vh" },
+      {
+        y: "100vh",
+        display: "none",
+        duration: 0.7,
+        ease: Power3.outIn,
+        transformOrigin: "left",
+        delay: 0.5,
+        stagger: { amount: 1 },
+      }
+    );
+    state.current.style.display = "about";
+  };
   // const showResume = () => {
   //   showz.current.classList = "showresume";
   //   gsap.fromTo(
@@ -190,8 +190,8 @@ const Navbar = () => {
   // const showMenu = () => {
   //   setNavies(!navies);
   // };
-  // const chgAbo = () => (hoverAbou.current.style.opacity = "1");
-  // const changeAbo = () => (hoverAbou.current.style.opacity = "0");
+  const chgAbo = () => (hoverAbou.current.style.opacity = "1");
+  const changeAbo = () => (hoverAbou.current.style.opacity = "0");
   // const chgResume = () => (hoverResume.current.style.opacity = "1");
   // const changeResume = () => (hoverResume.current.style.opacity = "0");
   // const changePort = () => (hoverPort.current.style.opacity = "0");
@@ -255,9 +255,9 @@ const Navbar = () => {
             <li
               className="lots"
               ref={nodea}
-              // onClick={show}
-              // onMouseLeave={changeAbo}
-              // onMouseEnter={chgAbo}
+              onClick={show}
+              onMouseLeave={changeAbo}
+              onMouseEnter={chgAbo}
             >
               About
             </li>
@@ -304,7 +304,7 @@ const Navbar = () => {
       </div>
       {/* ref={showing} className={displayz ? "about" : "show"} */}
       <div  className= "about" style={{color:"#fff"}}>
-        <button  className="close" >
+        <button onClick={closer} className="close" >
           close
         </button>
         <div  className="inside" >
@@ -344,8 +344,8 @@ const Navbar = () => {
           <Contact />
         </div>
       </div> */}
-      {/* <img className="himg" ref={hoverAbou} src="assets/about.jpg" alt="" />
-      <img className="himg" ref={hoverBlog} src="assets/blog.jpeg" alt="" />
+      <img className="himg" ref={hoverAbou} src="assets/about.jpg" alt="" />
+      {/* <img className="himg" ref={hoverBlog} src="assets/blog.jpeg" alt="" />
       <img className="himg" ref={hoverCont} src="assets/contact.jpeg" alt="" />
       <img className="himg" ref={hoverResume} src="assets/resume.jpeg" alt="" />
       <img className="himg" ref={hoverPort} src="assets/port.jpg" alt="" /> */}
