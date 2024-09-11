@@ -223,26 +223,26 @@ const Navbar = () => {
       );
     }
 
-    gsap.fromTo(
-      [
-        nodea.current,
-        nodeb.current,
-        nodec.current,
-        noded.current,
-        nodee.current,
-      ],
-      { opacity: 0, y: "-5rem" },
-      {
-        opacity: 1,
-        y: "0rem",
-        duration: 2.5,
-        ease: Power3.outIn,
-        transformOrigin: "left",
-        delay: 2.5,
-        stagger: { amount: 1 },
-      }
-    );
-  }, [navies]);
+  //   gsap.fromTo(
+  //     [
+  //       nodea.current,
+  //       nodeb.current,
+  //       nodec.current,
+  //       noded.current,
+  //       nodee.current,
+  //     ],
+  //     { opacity: 0, y: "-5rem" },
+  //     {
+  //       opacity: 1,
+  //       y: "0rem",
+  //       duration: 2.5,
+  //       ease: Power3.outIn,
+  //       transformOrigin: "left",
+  //       delay: 2.5,
+  //       stagger: { amount: 1 },
+  //     }
+  //   );
+  // }, [navies]);
 
   return (
     <>
