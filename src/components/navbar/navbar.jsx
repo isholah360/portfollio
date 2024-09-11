@@ -1,8 +1,8 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./navbar.css";
 import Nav from "../nav/nav";
-// import gsap from "gsap";
-// import { Power3 } from "gsap";
+import gsap from "gsap";
+import { Power3 } from "gsap";
 // import { About, Blog, Contact, Portfolio, Resume } from "../../pages";
 
 const Navbar = () => {
@@ -26,6 +26,7 @@ const Navbar = () => {
   // const hoverResume = useRef(null);
   // const hoverCont = useRef(null);
   const hoverAbou = useRef(null);
+  const close = useRef(null)
   // const hoverBlog = useRef(null);
   const [displayz, setDisplayz] = useState(true);
 
@@ -302,9 +303,9 @@ const Navbar = () => {
           <div className="farbar botomit"></div>
         </div> */}
       </div>
-      {/* ref={showing} className={displayz ? "about" : "show"} */}
-      <div  className= "about" style={{color:"#fff"}}>
-        <button onClick={closer} className="close" >
+      
+      <div  ref={showing} className={displayz ? "about" : "show"} >
+        <button onClick={close} className="close" onClick={closer}>
           close
         </button>
         <div  className="inside" >
