@@ -200,28 +200,28 @@ const Navbar = () => {
   const changeCont = () => (hoverCont.current.style.opacity = "0");
   const chgCont = () => (hoverCont.current.style.opacity = "1");
 
-  useEffect(() => {
-    if (navies === true) {
-      gsap.fromTo(
-        [
-          nodea.current,
-          nodeb.current,
-          nodec.current,
-          noded.current,
-          nodee.current,
-        ],
-        { opacity: 0, y: "-5rem" },
-        {
-          opacity: 1,
-          y: "0rem",
-          duration: 2.5,
-          ease: Power3.outIn,
-          transformOrigin: "left",
-          delay: 2.5,
-          stagger: { amount: 1 },
-        }
-      );
-    }
+  // useEffect(() => {
+  //   if (navies === true) {
+  //     gsap.fromTo(
+  //       [
+  //         nodea.current,
+  //         nodeb.current,
+  //         nodec.current,
+  //         noded.current,
+  //         nodee.current,
+  //       ],
+  //       { opacity: 0, y: "-5rem" },
+  //       {
+  //         opacity: 1,
+  //         y: "0rem",
+  //         duration: 2.5,
+  //         ease: Power3.outIn,
+  //         transformOrigin: "left",
+  //         delay: 2.5,
+  //         stagger: { amount: 1 },
+  //       }
+  //     );
+  //   }
 
   //   gsap.fromTo(
   //     [
