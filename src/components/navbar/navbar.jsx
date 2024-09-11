@@ -185,10 +185,10 @@ const Navbar = () => {
   //     }
   //   );
   // };
-  // const [navies, setNavies] = useState(true);
-  // const showMenu = () => {
-  //   setNavies(!navies);
-  // };
+  const [navies, setNavies] = useState(true);
+  const showMenu = () => {
+    setNavies(!navies);
+  };
   const chgAbo = () => (hoverAbou.current.style.opacity = "1");
   const changeAbo = () => (hoverAbou.current.style.opacity = "0");
   const chgResume = () => (hoverResume.current.style.opacity = "1");
@@ -252,7 +252,7 @@ const Navbar = () => {
             <li
               className="lots"
               ref={nodea}
-              onClick={show}
+              // onClick={show}
               onMouseLeave={changeAbo}
               onMouseEnter={chgAbo}
             >
@@ -260,7 +260,7 @@ const Navbar = () => {
             </li>
             <li
               ref={nodeb}
-              onClick={showResume}
+              // onClick={showResume}
               onMouseLeave={changeResume}
               onMouseEnter={chgResume}
             >
@@ -268,7 +268,7 @@ const Navbar = () => {
             </li>
             <li
               ref={nodec}
-              onClick={showPort}
+              // onClick={showPort}
               onMouseLeave={changePort}
               onMouseEnter={chgPort}
             >
@@ -276,7 +276,7 @@ const Navbar = () => {
             </li>
             <li
               ref={noded}
-              onClick={showBlog}
+              // onClick={showBlog}
               onMouseLeave={changeBlog}
               onMouseEnter={chgBlog}
             >
@@ -284,7 +284,7 @@ const Navbar = () => {
             </li>
             <li
               ref={nodee}
-              onClick={showContact}
+              // onClick={showContact}
               onMouseLeave={changeCont}
               onMouseEnter={chgCont}
             >
@@ -301,7 +301,7 @@ const Navbar = () => {
       </div>
 
       <div ref={showing} className={displayz ? "about" : "show"}>
-        <button ref={close} className="close" onClick={closer}>
+        <button ref={close} className="close" >
           close
         </button>
         <div ref={state} className="inside">
@@ -309,7 +309,7 @@ const Navbar = () => {
         </div>
       </div>
       <div ref={showz} className="aboutz">
-        <button ref={close} className="close" onClick={closing}>
+        <button ref={close} className="close" >
           close
         </button>
         <div ref={statez} className="inside">
@@ -317,7 +317,7 @@ const Navbar = () => {
         </div>
       </div>
       <div ref={port} className="aboutz">
-        <button ref={close} className="close" onClick={closePort}>
+        <button ref={close} className="close" >
           close
         </button>
         <div ref={ports} className="inside">
@@ -325,7 +325,7 @@ const Navbar = () => {
         </div>
       </div>
       <div ref={blog} className="aboutz">
-        <button ref={close} className="close" onClick={closeBlog}>
+        <button ref={close} className="close" >
           close
         </button>
         <div ref={blogIn} className="inside">
@@ -333,7 +333,7 @@ const Navbar = () => {
         </div>
       </div>
       <div ref={contact} className="aboutz">
-        <button ref={close} className="close" onClick={closeContact}>
+        <button ref={close} className="close" >
           close
         </button>
         <div ref={contactIn} className="inside">
