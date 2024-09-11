@@ -1,32 +1,32 @@
-import React, { useEffect, useRef, useState } from "react";
+// import React, { useEffect, useRef, useState } from "react";
 import "./navbar.css";
-import gsap from "gsap";
-import { Power3 } from "gsap";
-import { About, Blog, Contact, Portfolio, Resume } from "../../pages";
+// import gsap from "gsap";
+// import { Power3 } from "gsap";
+// import { About, Blog, Contact, Portfolio, Resume } from "../../pages";
 
 const Navbar = () => {
-  const node1 = useRef(null);
-  const nodea = useRef(null);
-  const nodeb = useRef(null);
-  const nodec = useRef(null);
-  const noded = useRef(null);
-  const nodee = useRef(null);
-  const showing = useRef(null);
-  const showz = useRef(null);
-  const state = useRef(null);
-  const statez = useRef(null);
-  const port = useRef(null);
-  const ports = useRef(null);
-  const blog = useRef(null);
-  const blogIn = useRef(null);
-  const contact = useRef(null);
-  const contactIn = useRef(null);
-  const hoverPort = useRef(null);
-  const hoverResume = useRef(null);
-  const hoverCont = useRef(null);
-  const hoverAbou = useRef(null);
-  const hoverBlog = useRef(null);
-  const [displayz, setDisplayz] = useState(true);
+  // const node1 = useRef(null);
+  // const nodea = useRef(null);
+  // const nodeb = useRef(null);
+  // const nodec = useRef(null);
+  // const noded = useRef(null);
+  // const nodee = useRef(null);
+  // const showing = useRef(null);
+  // const showz = useRef(null);
+  // const state = useRef(null);
+  // const statez = useRef(null);
+  // const port = useRef(null);
+  // const ports = useRef(null);
+  // const blog = useRef(null);
+  // const blogIn = useRef(null);
+  // const contact = useRef(null);
+  // const contactIn = useRef(null);
+  // const hoverPort = useRef(null);
+  // const hoverResume = useRef(null);
+  // const hoverCont = useRef(null);
+  // const hoverAbou = useRef(null);
+  // const hoverBlog = useRef(null);
+  // const [displayz, setDisplayz] = useState(true);
 
   // const show = () => {
   //   setDisplayz(!true);
@@ -303,11 +303,11 @@ const Navbar = () => {
       </div>
       {/* ref={showing} className={displayz ? "about" : "show"} */}
       <div  className= "about">
-        <button ref={close} className="close" >
+        <button  className="close" >
           close
         </button>
         <div  className="inside">
-          <About />
+          ABout
         </div>
       </div>
       {/* <div ref={showz} className="aboutz">
