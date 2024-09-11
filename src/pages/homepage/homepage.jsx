@@ -2,7 +2,7 @@ import React, { useRef, useState, useEffect } from "react";
 import "./homepage.css";
 import gsap from "gsap";
 import Content from "../../components/headcontent/content";
-// import Animate from "../../components/animate/animate";
+import Animate from "../../components/animate/animate";
 // import Navbar from "../../components/navbar/navbar";
 import { Power3 } from "gsap";
 
@@ -48,7 +48,7 @@ function Homepage() {
       <div className="maainpages">
         <div className="firspage">
           {/* <Navbar /> */}
-          {/* <Animate /> */}
+          <Animate />
           <div ref={bgimg} className="mainbg">
             <div className="thehead">
               <div className="name"> Ishola Duro</div>
