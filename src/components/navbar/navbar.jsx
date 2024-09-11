@@ -302,11 +302,11 @@ const Navbar = () => {
         </div> */}
       </div>
       {/* ref={showing} className={displayz ? "about" : "show"} */}
-      <div  className= "about">
+      <div  className= "about" style={{color:"#fff"}}>
         <button  className="close" >
           close
         </button>
-        <div  className="inside">
+        <div  className="inside" >
           ABout
         </div>
       </div>
