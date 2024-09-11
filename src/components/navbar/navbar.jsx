@@ -306,11 +306,11 @@ const Navbar = () => {
         <button ref={close} className="close" >
           close
         </button>
-        <div ref={state} className="inside">
+        <div  className="inside">
           <About />
         </div>
       </div>
-      <div ref={showz} className="aboutz">
+      {/* <div ref={showz} className="aboutz">
         <button ref={close} className="close" >
           close
         </button>
@@ -341,7 +341,7 @@ const Navbar = () => {
         <div ref={contactIn} className="inside">
           <Contact />
         </div>
-      </div>
+      </div> */}
       {/* <img className="himg" ref={hoverAbou} src="assets/about.jpg" alt="" />
       <img className="himg" ref={hoverBlog} src="assets/blog.jpeg" alt="" />
       <img className="himg" ref={hoverCont} src="assets/contact.jpeg" alt="" />
