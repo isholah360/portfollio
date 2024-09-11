@@ -189,16 +189,16 @@ const Navbar = () => {
   // const showMenu = () => {
   //   setNavies(!navies);
   // };
-  const chgAbo = () => (hoverAbou.current.style.opacity = "1");
-  const changeAbo = () => (hoverAbou.current.style.opacity = "0");
-  const chgResume = () => (hoverResume.current.style.opacity = "1");
-  const changeResume = () => (hoverResume.current.style.opacity = "0");
-  const changePort = () => (hoverPort.current.style.opacity = "0");
-  const chgPort = () => (hoverPort.current.style.opacity = "1");
-  const changeBlog = () => (hoverBlog.current.style.opacity = "0");
-  const chgBlog = () => (hoverBlog.current.style.opacity = "1");
-  const changeCont = () => (hoverCont.current.style.opacity = "0");
-  const chgCont = () => (hoverCont.current.style.opacity = "1");
+  // const chgAbo = () => (hoverAbou.current.style.opacity = "1");
+  // const changeAbo = () => (hoverAbou.current.style.opacity = "0");
+  // const chgResume = () => (hoverResume.current.style.opacity = "1");
+  // const changeResume = () => (hoverResume.current.style.opacity = "0");
+  // const changePort = () => (hoverPort.current.style.opacity = "0");
+  // const chgPort = () => (hoverPort.current.style.opacity = "1");
+  // const changeBlog = () => (hoverBlog.current.style.opacity = "0");
+  // const chgBlog = () => (hoverBlog.current.style.opacity = "1");
+  // const changeCont = () => (hoverCont.current.style.opacity = "0");
+  // const chgCont = () => (hoverCont.current.style.opacity = "1");
 
   // useEffect(() => {
   //   if (navies === true) {
@@ -301,8 +301,8 @@ const Navbar = () => {
           <div className="farbar botomit"></div>
         </div> */}
       </div>
-
-      <div ref={showing} className={displayz ? "about" : "show"}>
+      {/* ref={showing} className={displayz ? "about" : "show"} */}
+      <div  className= "about">
         <button ref={close} className="close" >
           close
         </button>
