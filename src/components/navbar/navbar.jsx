@@ -28,167 +28,167 @@ const Navbar = () => {
   const hoverBlog = useRef(null);
   const [displayz, setDisplayz] = useState(true);
 
-  const show = () => {
-    setDisplayz(!true);
-    state.current.style.display = "show";
-    gsap.fromTo(
-      [showing.current, state.current],
-      { y: "100vh" },
-      {
-        y: "0",
-        display: "flex",
-        duration: 0.7,
-        ease: Power3.outIn,
-        transformOrigin: "left",
-        delay: 0.5,
-        stagger: { amount: 1 },
-      }
-    );
-  };
-  const closer = () => {
-    gsap.fromTo(
-      [state.current, showing.current],
-      { y: "0vh" },
-      {
-        y: "100vh",
-        display: "none",
-        duration: 0.7,
-        ease: Power3.outIn,
-        transformOrigin: "left",
-        delay: 0.5,
-        stagger: { amount: 1 },
-      }
-    );
-    state.current.style.display = "about";
-  };
-  const showResume = () => {
-    showz.current.classList = "showresume";
-    gsap.fromTo(
-      [showz.current, statez.current],
-      { y: "100vh" },
-      {
-        y: "0",
-        display: "flex",
-        duration: 0.7,
-        ease: Power3.outIn,
-        transformOrigin: "left",
-        delay: 0.5,
-        stagger: { amount: 1 },
-      }
-    );
-  };
-  const closing = () => {
-    gsap.fromTo(
-      [statez.current, showz.current],
-      { y: "0vh" },
-      {
-        y: "100vh",
-        display: "none",
-        duration: 0.7,
-        ease: Power3.outIn,
-        transformOrigin: "left",
-        delay: 0.5,
-        stagger: { amount: 1 },
-      }
-    );
-  };
-  const showPort = () => {
-    port.current.classList = "portshow";
-    gsap.fromTo(
-      [port.current, ports.current],
-      { y: "100vh" },
-      {
-        y: "0",
-        display: "flex",
-        duration: 0.7,
-        ease: Power3.outIn,
-        transformOrigin: "left",
-        delay: 0.5,
-        stagger: { amount: 1 },
-      }
-    );
-  };
-  const closePort = () => {
-    gsap.fromTo(
-      [ports.current, port.current],
-      { y: "0vh" },
-      {
-        y: "100vh",
-        display: "none",
-        duration: 0.7,
-        ease: Power3.outIn,
-        transformOrigin: "left",
-        delay: 0.5,
-        stagger: { amount: 1 },
-      }
-    );
-  };
-  const showBlog = () => {
-    blog.current.classList = "showblog";
-    gsap.fromTo(
-      [blog.current, blogIn.current],
-      { y: "100vh" },
-      {
-        y: "0",
-        display: "flex",
-        duration: 0.7,
-        ease: Power3.outIn,
-        transformOrigin: "left",
-        delay: 0.5,
-        stagger: { amount: 1 },
-      }
-    );
-  };
-  const closeBlog = () => {
-    gsap.fromTo(
-      [blogIn.current, blog.current],
-      { y: "0vh" },
-      {
-        y: "100vh",
-        display: "none",
-        duration: 0.7,
-        ease: Power3.outIn,
-        transformOrigin: "left",
-        delay: 0.5,
-        stagger: { amount: 1 },
-      }
-    );
-  };
-  const showContact = () => {
-    contact.current.classList = "showcontact";
-    gsap.fromTo(
-      [contact.current, contactIn.current],
-      { y: "100vh" },
-      {
-        y: "0",
-        display: "flex",
-        duration: 0.7,
-        ease: Power3.outIn,
-        transformOrigin: "left",
-        delay: 0.5,
-        stagger: { amount: 1 },
-      }
-    );
-  };
-  const closeContact = () => {
-    gsap.fromTo(
-      [contactIn.current, contact.current],
-      { y: "0vh" },
-      {
-        y: "100vh",
-        display: "none",
-        duration: 0.7,
-        ease: Power3.outIn,
-        transformOrigin: "left",
-        delay: 0.5,
-        stagger: { amount: 1 },
-      }
-    );
-  };
-  const [navies, setNavies] = useState(true);
-  const showMenu = () => {
-    setNavies(!navies);
-  };
+  // const show = () => {
+  //   setDisplayz(!true);
+  //   state.current.style.display = "show";
+  //   gsap.fromTo(
+  //     [showing.current, state.current],
+  //     { y: "100vh" },
+  //     {
+  //       y: "0",
+  //       display: "flex",
+  //       duration: 0.7,
+  //       ease: Power3.outIn,
+  //       transformOrigin: "left",
+  //       delay: 0.5,
+  //       stagger: { amount: 1 },
+  //     }
+  //   );
+  // };
+  // const closer = () => {
+  //   gsap.fromTo(
+  //     [state.current, showing.current],
+  //     { y: "0vh" },
+  //     {
+  //       y: "100vh",
+  //       display: "none",
+  //       duration: 0.7,
+  //       ease: Power3.outIn,
+  //       transformOrigin: "left",
+  //       delay: 0.5,
+  //       stagger: { amount: 1 },
+  //     }
+  //   );
+  //   state.current.style.display = "about";
+  // };
+  // const showResume = () => {
+  //   showz.current.classList = "showresume";
+  //   gsap.fromTo(
+  //     [showz.current, statez.current],
+  //     { y: "100vh" },
+  //     {
+  //       y: "0",
+  //       display: "flex",
+  //       duration: 0.7,
+  //       ease: Power3.outIn,
+  //       transformOrigin: "left",
+  //       delay: 0.5,
+  //       stagger: { amount: 1 },
+  //     }
+  //   );
+  // };
+  // const closing = () => {
+  //   gsap.fromTo(
+  //     [statez.current, showz.current],
+  //     { y: "0vh" },
+  //     {
+  //       y: "100vh",
+  //       display: "none",
+  //       duration: 0.7,
+  //       ease: Power3.outIn,
+  //       transformOrigin: "left",
+  //       delay: 0.5,
+  //       stagger: { amount: 1 },
+  //     }
+  //   );
+  // };
+  // const showPort = () => {
+  //   port.current.classList = "portshow";
+  //   gsap.fromTo(
+  //     [port.current, ports.current],
+  //     { y: "100vh" },
+  //     {
+  //       y: "0",
+  //       display: "flex",
+  //       duration: 0.7,
+  //       ease: Power3.outIn,
+  //       transformOrigin: "left",
+  //       delay: 0.5,
+  //       stagger: { amount: 1 },
+  //     }
+  //   );
+  // };
+  // const closePort = () => {
+  //   gsap.fromTo(
+  //     [ports.current, port.current],
+  //     { y: "0vh" },
+  //     {
+  //       y: "100vh",
+  //       display: "none",
+  //       duration: 0.7,
+  //       ease: Power3.outIn,
+  //       transformOrigin: "left",
+  //       delay: 0.5,
+  //       stagger: { amount: 1 },
+  //     }
+  //   );
+  // };
+  // const showBlog = () => {
+  //   blog.current.classList = "showblog";
+  //   gsap.fromTo(
+  //     [blog.current, blogIn.current],
+  //     { y: "100vh" },
+  //     {
+  //       y: "0",
+  //       display: "flex",
+  //       duration: 0.7,
+  //       ease: Power3.outIn,
+  //       transformOrigin: "left",
+  //       delay: 0.5,
+  //       stagger: { amount: 1 },
+  //     }
+  //   );
+  // };
+  // const closeBlog = () => {
+  //   gsap.fromTo(
+  //     [blogIn.current, blog.current],
+  //     { y: "0vh" },
+  //     {
+  //       y: "100vh",
+  //       display: "none",
+  //       duration: 0.7,
+  //       ease: Power3.outIn,
+  //       transformOrigin: "left",
+  //       delay: 0.5,
+  //       stagger: { amount: 1 },
+  //     }
+  //   );
+  // };
+  // const showContact = () => {
+  //   contact.current.classList = "showcontact";
+  //   gsap.fromTo(
+  //     [contact.current, contactIn.current],
+  //     { y: "100vh" },
+  //     {
+  //       y: "0",
+  //       display: "flex",
+  //       duration: 0.7,
+  //       ease: Power3.outIn,
+  //       transformOrigin: "left",
+  //       delay: 0.5,
+  //       stagger: { amount: 1 },
+  //     }
+  //   );
+  // };
+  // const closeContact = () => {
+  //   gsap.fromTo(
+  //     [contactIn.current, contact.current],
+  //     { y: "0vh" },
+  //     {
+  //       y: "100vh",
+  //       display: "none",
+  //       duration: 0.7,
+  //       ease: Power3.outIn,
+  //       transformOrigin: "left",
+  //       delay: 0.5,
+  //       stagger: { amount: 1 },
+  //     }
+  //   );
+  // };
+  // const [navies, setNavies] = useState(true);
+  // const showMenu = () => {
+  //   setNavies(!navies);
+  // };
   const chgAbo = () => (hoverAbou.current.style.opacity = "1");
   const changeAbo = () => (hoverAbou.current.style.opacity = "0");
   const chgResume = () => (hoverResume.current.style.opacity = "1");
@@ -305,7 +305,7 @@ const Navbar = () => {
           close
         </button>
         <div ref={state} className="inside">
-          {/* <About /> */}
+          <About />
         </div>
       </div>
       <div ref={showz} className="aboutz">
@@ -313,7 +313,7 @@ const Navbar = () => {
           close
         </button>
         <div ref={statez} className="inside">
-          {/* <Resume /> */}
+          <Resume />
         </div>
       </div>
       <div ref={port} className="aboutz">
@@ -321,7 +321,7 @@ const Navbar = () => {
           close
         </button>
         <div ref={ports} className="inside">
-          {/* <Portfolio /> */}
+          <Portfolio />
         </div>
       </div>
       <div ref={blog} className="aboutz">
@@ -329,7 +329,7 @@ const Navbar = () => {
           close
         </button>
         <div ref={blogIn} className="inside">
-          {/* <Blog /> */}
+          <Blog />
         </div>
       </div>
       <div ref={contact} className="aboutz">
@@ -337,14 +337,14 @@ const Navbar = () => {
           close
         </button>
         <div ref={contactIn} className="inside">
-          {/* <Contact /> */}
+          <Contact />
         </div>
       </div>
-      <img className="himg" ref={hoverAbou} src="assets/about.jpg" alt="" />
+      {/* <img className="himg" ref={hoverAbou} src="assets/about.jpg" alt="" />
       <img className="himg" ref={hoverBlog} src="assets/blog.jpeg" alt="" />
       <img className="himg" ref={hoverCont} src="assets/contact.jpeg" alt="" />
       <img className="himg" ref={hoverResume} src="assets/resume.jpeg" alt="" />
-      <img className="himg" ref={hoverPort} src="assets/port.jpg" alt="" />
+      <img className="himg" ref={hoverPort} src="assets/port.jpg" alt="" /> */}
     </>
   );
 };
