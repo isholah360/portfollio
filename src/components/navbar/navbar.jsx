@@ -185,10 +185,10 @@ const Navbar = () => {
   //     }
   //   );
   // };
-  const [navies, setNavies] = useState(true);
-  const showMenu = () => {
-    setNavies(!navies);
-  };
+  // const [navies, setNavies] = useState(false);
+  // const showMenu = () => {
+  //   setNavies(!navies);
+  // };
   const chgAbo = () => (hoverAbou.current.style.opacity = "1");
   const changeAbo = () => (hoverAbou.current.style.opacity = "0");
   const chgResume = () => (hoverResume.current.style.opacity = "1");
@@ -244,10 +244,12 @@ const Navbar = () => {
   //   );
   // }, [navies]);
 
+
+  // className={navies ? "navbar" : "nav"}
   return (
     <>
       <div>
-        <div className={navies ? "navbar" : "nav"}>
+        <div className= "navbar" >
           <ul ref={node1}>
             <li
               className="lots"
@@ -293,11 +295,11 @@ const Navbar = () => {
             <li></li>
           </ul>
         </div>
-        <div className="farcover" onClick={showMenu}>
+        {/* <div className="farcover" onClick={showMenu}>
           <div className="farbar topit"></div>
           <div className="farbar"></div>
           <div className="farbar botomit"></div>
-        </div>
+        </div> */}
       </div>
 
       <div ref={showing} className={displayz ? "about" : "show"}>
