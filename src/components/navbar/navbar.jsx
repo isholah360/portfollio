@@ -250,7 +250,7 @@ const Navbar = () => {
     <>
       <div>
         <div className= "navbar" >
-          <ul ref={node1}>
+          {/* <ul ref={node1}>
             <li
               className="lots"
               ref={nodea}
@@ -293,7 +293,7 @@ const Navbar = () => {
               Contact
             </li>
             <li></li>
-          </ul>
+          </ul> */}
         </div>
         {/* <div className="farcover" onClick={showMenu}>
           <div className="farbar topit"></div>
