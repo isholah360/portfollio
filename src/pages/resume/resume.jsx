@@ -119,10 +119,10 @@ function Resume() {
                 </div>
                 <div className="skillsize">
                   <div className="main">
-                  <Skill size1="85%" size2="90%" size3="95%"
-                  title1="HTML"  title2="Javascript" title3="React Js"/>
-                  <Skillo size1="95%" size2="87%" size3="97%"
-                  title1="CSS"  title2="UI/UX" title3="Node"/>
+                  <Skill size1="85%" size2="90%" size3="95%" size4="85%"
+                  title1="HTML"  title2="Javascript" title3="React Js" title4="Nest Js"/>
+                  <Skillo size1="95%" size2="87%" size3="97%" size4="85%"
+                  title1="CSS"  title2="Typescript" title3="Node" title4="Express Js"/>
 
                   </div>
                 </div>

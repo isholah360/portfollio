@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@1000&family=Questrial&display=swap');
 
 .about-bg{
-    min-height: 200vh;
     width: 100vw;
     position: absolute;
     z-index: 120;
@@ -15,6 +14,7 @@
 .outside{
     background: rgb(16, 16, 16);
     position: absolute;
+
     
 }
 .horilinea{
@@ -110,10 +110,12 @@
     font-weight: bolder;
 }
 .plancard{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
     justify-content: center;
     margin: 2rem 0rem;
+    padding: 2em 5%;
 }
 @media screen and (max-width: 480px) {
 

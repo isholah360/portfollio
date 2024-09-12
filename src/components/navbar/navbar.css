@@ -60,7 +60,7 @@
     display: none; 
 }
 .show{
-    min-height: 510vh;
+    min-height: 555vh;
     width: 100vw;
     background-color: rgb(16, 16, 16);
     position:absolute ; 
@@ -69,7 +69,7 @@
     display: flex; 
 }
 .showresume{
-    min-height: 350vh;
+    min-height: 400vh;
     width: 100vw;
     background-color: rgb(16, 16, 16);
     position:absolute ; 
@@ -96,13 +96,14 @@
     display: flex; 
 }
 .showcontact{
-    min-height: 150vh;
+    min-height: 160vh;
     width: 100vw;
     background-color: rgb(16, 16, 16);
     position:absolute ; 
     top: 0;
     z-index: 120;
-    display: flex;
+    display:flex ;
+    
 }
 
 .himg{

@@ -11,7 +11,7 @@ function About() {
 
   return (
     
-    <div>
+    <div >
       <div className='about-bg'>
        <div className="outside"></div>
           <div className="about-head">

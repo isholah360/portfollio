@@ -2,7 +2,7 @@ import React from 'react'
 import './skill.css'
 
 function Skillo(props) {
-    const {title1, title2, title3, size1, size2, size3} = props
+    const {title1, title2, title3, title4, size1, size2, size3, size4} = props
   return (
     <div>
             <div className="complete">
@@ -27,6 +27,15 @@ function Skillo(props) {
                 <div className="skiil-title">
                 <p> {title3} </p>
                 <p>{size3}</p>
+                </div>
+                <div className="bottom">
+                    <div className='top6'></div>
+                </div>
+            </div>
+            <div className="complete">
+                <div className="skiil-title">
+                <p> {title4} </p>
+                <p>{size4}</p>
                 </div>
                 <div className="bottom">
                     <div className='top6'></div>

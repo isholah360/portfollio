@@ -7,14 +7,14 @@ function Plan(props) {
     <div>
       <div className="plcard">
         <img className="aboutimg" src={source} alt="" />
-        <p className="standard">{naming}</p>
-        <p className="amount">{amount}</p>
-        <p>Mobile App Design</p>
-        <p>Responsive Design</p>
-        <p>Database Development</p>
-        <p>Web Design</p>
-        <p>Web Design</p>
-        <p>24/7 Support</p>
+        <div className="standard">{naming}</div>
+        <div className="amount">{amount}</div>
+        <div>Mobile App Design</div>
+        <div>Responsive Design</div>
+        <div>Database Development</div>
+        <div>Web Design</div>
+        <div>Web Design</div>
+        <div>24/7 Support</div>
         <button>Get Started</button>
       </div>
     </div>
