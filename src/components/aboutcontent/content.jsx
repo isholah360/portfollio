@@ -8,10 +8,10 @@ function Content() {
         <div className="about-content">
           <p className="whoim">Who am i?</p>
           <p className="namedetail">
-            I'm Eshola Duro, a visual UX/UI Designer and Web Developer
+            I'm Abdulfatah Abdularsheed, a visual UX/UI Designer and Web Developer
           </p>
           <p className="detailcontent">
-            I am a freelancer based in the United Kingdom and i have been
+            I am a freelancer based in the Nigeria and i have been
             building noteworthy UX/UI designs and websites for years, which
             comply with the latest design trends. I help convert a vision and an
             idea into meaningful and useful products. Having a sharp eye for
@@ -22,10 +22,10 @@ function Content() {
           <div className="age-mail">
             <div className="fullname">
               <p>
-                Name:<span className="detcolor">Eshola Duro</span>
+                Name:<span className="detcolor">Abdulfatah Abdulrasheed</span>
               </p>
               <p className="botomcolor">
-                Age: <span className="detcolor">25</span>
+                Age: <span className="detcolor">28</span>
               </p>
             </div>
             <div className="fullmail">

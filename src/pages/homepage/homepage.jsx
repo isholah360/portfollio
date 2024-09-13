@@ -51,12 +51,12 @@ function Homepage() {
           <Animate />
           <div ref={bgimg} className="mainbg">
             <div className="thehead">
-              <div className="name"> Ishola Duro</div>
+              <div className="name">Abdul-Fatah</div>
               <Content />
             </div>
             <div className="lang">
-              <p>ENG</p>
-              <p className="jap">JAP</p>
+              <p className="eng">ENG</p>
+              <p className="jap">YOR</p>
             </div>
 
             <div className="social-media">

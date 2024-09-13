@@ -50,7 +50,7 @@ function Contact() {
                 <div className="personalinfo">
                         <div className="individual-info">
                           <p className="myname" >Name</p>
-                          <p className="information">Eshola Duro</p>
+                          <p className="information">Abdulfatah Abdulrasheed</p>
                         </div>
                         <div className="individual-info">
                           <p className="myname">Location</p>
