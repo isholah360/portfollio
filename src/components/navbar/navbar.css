@@ -24,10 +24,10 @@
  .logo{
     left: 5%;
     position: absolute;
-    top: 2.75rem;
+    top: 3.3rem;
     list-style: none;
     font-family: 'Questrial', sans-serif;
-    font-weight: bold;
+    font-weight: 800;
     font-size: 1.5rem;
  }
  .navbar ul li a{

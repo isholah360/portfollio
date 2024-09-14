@@ -17,8 +17,8 @@ const Animate = () => {
   useEffect(() => {
     gsap.fromTo(
       [writer.current],
-      { opacity: 1, color: "white" },
-      { color: "black", opacity: 0, duration: 3, ease: Power3.outIn }
+      { opacity: 1, color: "white",  },
+      { color: "black", opacity: 0, duration: 3, ease: Power3.outIn, }
     );
     gsap.fromTo(
       [node11.current, node22.current, node33.current],

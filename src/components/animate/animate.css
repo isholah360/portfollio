@@ -72,9 +72,12 @@
 .last{
  margin-left: 50%;   
 }
+.writer{
+  
+}
 @media screen and (max-width:480px) {
     .nodes, .nods{
-        display:block;
+        /* display:block; */
         overflow-y: hidden;
     }
 
