@@ -1,160 +1,163 @@
-@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@1000&family=Questrial&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@1000&family=Questrial&display=swap");
 
-.firspage{
-    max-height: 100vh;
-}
-
-.mainbg{
-    background-image: url(/assets/mg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 100vh;
-    width: 100vw; 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(22, 21, 21) ;
-     background-color: rgb(22, 21, 21) ;
-}
-.abt-display{
-    display: hidden;
-}
-.thehead{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-}
-.about{
-    min-height: 100vh;
-    width: 100vw;
-    background-color: white;
-    position:absolute ; 
-    top: 0;
-    z-index: 120;
-    display: none;
-}
-.show{
-    min-height: 100vh;
-    width: 100vw;
-    background-color: white;
-    position:absolute ; 
-    top: 0;
-    z-index: 120;
-    display: flex; 
+.firspage {
+  max-height: 100vh;
 }
 
-.close{
-    right: 3rem;
-    z-index: 135;
-    top: 1rem;
-    padding: 5px 20px;
-    position: absolute;
-    
+.mainbg {
+  background-image: url(/assets/mg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(22, 21, 21);
+  background-color: rgb(22, 21, 21);
 }
-.social-media hr{
-    position: absolute;
-    rotate: 90deg;
-    width: 8rem;
-    margin: -6rem 1rem 0 0rem;
-    left: -3.4rem;
+.abt-display {
+  display: hidden;
 }
-.social-media{
- display: flex;
- flex-direction: column;
- gap: 1rem;
- position: absolute;
- right: -28rem;
- top: 60%;
+.thehead {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.about {
+  min-height: 100vh;
+  width: 100vw;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  z-index: 120;
+  display: none;
+}
+.show {
+  min-height: 100vh;
+  width: 100vw;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  z-index: 120;
+  display: flex;
+}
 
+.close {
+  right: 3rem;
+  z-index: 135;
+  top: 1rem;
+  padding: 5px 20px;
+  position: absolute;
 }
-.media{
-    width: 4%;
-    filter: invert(99%) sepia(0%) 
-    saturate(2%) hue-rotate(96deg) 
-    brightness(109%) contrast(100%);
+.social-media hr {
+  position: absolute;
+  rotate: 90deg;
+  width: 8rem;
+  margin: -6rem 1rem 0 0rem;
+  left: -3.4rem;
+}
+.social-media {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  position: absolute;
+  right: -28rem;
+  top: 60%;
+}
+.media {
+  width: 4%;
+  filter: invert(99%) sepia(0%) saturate(2%) hue-rotate(96deg) brightness(109%)
+    contrast(100%);
+}
+.jap {
+  margin-top: -1.5rem;
+  margin-left: -3.5rem;
+}
+.writer {
+  font-size: 19.5rem;
+  position: absolute;
+  color: white;
+  z-index: 100;
+  font-family: "Questrial", sans-serif;
+}
+.eng {
+  margin-left: 0 2rem;
+  position: absolute;
+  bottom: 0.1rem;
+}
+.lang {
+  position: absolute;
+  flex-direction: column;
+  color: white;
+  left: 1rem;
+  rotate: 90deg;
+  top: 80%;
+}
 
+.staks {
 }
-.jap{
-    margin-top: -1.5rem;
-    margin-left: -3.5rem;
-}
-.writer{
-    font-size: 19.5rem;
-    position: absolute;
-    color: white;
-    z-index: 100;
-    font-family: 'Questrial', sans-serif;
-}
-.eng{
-    margin-left: 0 2rem;
-    position: absolute;
-    bottom: .1rem;
-}
-.lang{
-    position: absolute;
-    flex-direction: column;
-    color: white;
-    left: 1rem;
-    rotate: 90deg;
-    top: 80%;}
-
-.staks{
-
-}
-.stacks{
-    position: absolute;
-    bottom: 0;
-    background-color: rgba(233, 233, 233, 0.301);
-    height: 3vh;
-    padding: 1.5rem 20% 1.5rem 20%;
-    color: #fff;
-    width: 80%;
-    color: #e9e9e9;
-
+.stacks {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(233, 233, 233, 0.301);
+  height: 3vh;
+  padding: 1.5rem 20% 1.75rem 20%;
+  color: #fff;
+  width: 80%;
+  color: #e9e9e9;
 }
 .stacks .slick-slider .slick-arrow {
- display: none;
+  display: none;
 }
-.stack-nested{
-    display: flex;
-    justify-items: center;
-    gap: 1rem;
-    position: relative;
-    
+.stack-nested {
+  display: flex;
+  justify-items: center;
+  gap: 1rem;
+  font-size: 2.2rem;
+  position: relative;
 }
-.stck-title{
-  padding: -2rem 0rem;
+.stck-title {
+  padding: .35rem 0rem;
   font-size: 1.5rem;
   margin-left: 1rem;
   position: absolute;
 }
+
 @media screen and (max-width: 480px) {
-    .maainpages{
-       
-        max-height: 100vh;
-        overflow-y: hidden;
-        overflow-x: hidden;
-    }
-    .mainbg{
-        background-position: center; 
-        overflow-y: hidden;
-        overflow-x: hidden;
-    }
-   .social-media{
+  .maainpages {
+    max-height: 100vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+  .mainbg {
+    background-position: center;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+  .social-media {
     display: none;
-   }
-   .name{ 
+  }
+  .name {
     font-size: 1rem;
     text-align: center;
-    }
-    .stacks{
-        
-        width: 100%;
-        padding: 1.5rem 5% 2.5rem 8%;
-    
-    }
   }
+  .stacks {
+    width: 100%;
+    padding: 1.5rem 5% 2.5rem 8%;
+    font-size: clamp(1.5vw, 1.5vw + 0.35rem, 1.5rem);
+  }
+  .stak-nested{
+    font-size: clamp(1.5vw, 1.5vw + 0.35rem, 1.5rem);
+   
+  }
+  .stck-title {
+    padding: .5rem 0rem;
+    font-size: clamp(3vw, 3vw + 0.35rem, 1.5rem);
+    margin-left: 1rem;
+    position: absolute;
+  }
+}

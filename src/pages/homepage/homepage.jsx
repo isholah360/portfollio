@@ -24,7 +24,7 @@ function SampleNextArrow(props) {
   return (
     <div
       className={className}
-      style={{ ...style, display: "none", }}
+      style={{ ...style, display: "none" }}
       onClick={onClick}
     />
   );
@@ -35,7 +35,7 @@ function SamplePrevArrow(props) {
   return (
     <div
       className={className}
-      style={{ ...style, display: "none", }}
+      style={{ ...style, display: "none" }}
       onClick={onClick}
     />
   );
@@ -94,25 +94,25 @@ function Homepage() {
           slidesToShow: 3,
           slidesToScroll: 3,
           infinite: true,
-          dots: true
-        }
+          dots: true,
+        },
       },
       {
         breakpoint: 600,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
-          initialSlide: 2
-        }
+          initialSlide: 2,
+        },
       },
       {
         breakpoint: 480,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 1
-        }
-      }
-    ]
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
   return (
     <>
@@ -141,45 +141,43 @@ function Homepage() {
             <div className="stacks">
               <Slider {...settings}>
                 <div className="stack-nested">
-                  <SiNestjs style={{ color: "#fff", fontSize: "2.2rem" }} />
+                  <SiNestjs />
                   <span className="stck-title">NestJs</span>
                 </div>
                 <div className="stack-nested">
-                  <SiExpress style={{ color: "#fff", fontSize: "2.2rem" }} />
+                  <SiExpress />
                   <span className="stck-title">express</span>
                 </div>
                 <div className="stack-nested">
-                  <RiNodejsLine style={{ color: "#fff", fontSize: "2.2rem" }} />
+                  <RiNodejsLine />
                   <span className="stck-title">NodeJs</span>
                 </div>
                 <div className="stack-nested">
-                  <SiTailwindcss style={{ color: "#fff", fontSize: "2.2rem" }} />
+                  <SiTailwindcss />
                   <span className="stck-title">Tailwindcss</span>
                 </div>
                 <div className="stack-nested">
-                  <SiMongodb style={{ color: "#fff", fontSize: "2.2rem" }} />
+                  <SiMongodb />
                   <span className="stck-title">MongoDB</span>
                 </div>
                 <div className="stack-nested">
-                  <SiPrisma style={{ color: "#fff", fontSize: "2.2rem" }} />
+                  <SiPrisma />
                   <span className="stck-title">Prisma</span>
                 </div>
                 <div className="stack-nested">
-                  <FaReact style={{ color: "#fff", fontSize: "2.2rem" }} />
+                  <FaReact />
                   <span className="stck-title">ReactJs</span>
                 </div>
                 <div className="stack-nested">
-                  <FaDocker style={{ color: "#fff", fontSize: "2.2rem" }} />
+                  <FaDocker />
                   <span className="stck-title">Docker</span>
                 </div>
                 <div className="stack-nested">
-                  <IoLogoFirebase
-                    style={{ color: "#fff", fontSize: "2.2rem" }}
-                  />
+                  <IoLogoFirebase />
                   <span className="stck-title">Firebase</span>
                 </div>
                 <div className="stack-nested">
-                  <RiNextjsFill style={{ color: "#fff", fontSize: "2.2rem" }} />
+                  <RiNextjsFill />
                   <span className="stck-title">NextJs</span>
                 </div>
               </Slider>
