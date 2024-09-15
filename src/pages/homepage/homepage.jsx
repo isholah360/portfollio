@@ -18,6 +18,7 @@ import { RiNextjsFill } from "react-icons/ri";
 import { FaReact } from "react-icons/fa";
 import { FaDocker } from "react-icons/fa";
 import { IoLogoFirebase } from "react-icons/io5";
+import { FaGitAlt } from "react-icons/fa6";
 
 function SampleNextArrow(props) {
   const { className, style, onClick } = props;
@@ -179,6 +180,10 @@ function Homepage() {
                 <div className="stack-nested">
                   <RiNextjsFill />
                   <span className="stck-title">NextJs</span>
+                </div>
+                <div className="stack-nested">
+                <FaGitAlt />
+                  <span className="stck-title">Github</span>
                 </div>
               </Slider>
             </div>

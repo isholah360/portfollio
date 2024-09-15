@@ -4,6 +4,7 @@ import gsap from "gsap";
 import { Power3 } from "gsap/src/index";
 import { About, Resume, Portfolio, Blog, Contact } from "../../pages";
 
+
 const Navbar = () => {
   const node1 = useRef(null);
   const nodea = useRef(null);
