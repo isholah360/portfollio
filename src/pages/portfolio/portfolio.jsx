@@ -164,14 +164,14 @@ const Portfolio = () => {
           <div className="port-head">
             <p>Showcasing some of my best work</p>
             <p className="portme">Portfolio</p>
-            <hr className="horiline"></hr>
+            <hr className="horiline  horport"></hr>
           </div>
 
           <Port
             content=" A mobile-friendly platform connecting singles, 
             featuring user profiles, matching algorithms, messaging, 
             and location-based search for potential romantic partners."
-            pic="/assets/date.png"
+            pic="/assets/news.png"
             title="Flash"
             title2="News"
             link="https://flashnews-y0dp.onrender.com/"
@@ -207,9 +207,9 @@ const Portfolio = () => {
                 content=" A dynamic web application showcasing property listings, allowing
               users to search, filter, and view detailed information about
               available real estate."
-                pic="/assets/delan.png"
-                title="Homer"
-                link="https://realestate-68nv.vercel.app"
+                pic="/assets/golfer.png"
+                title="GOlf-Together"
+                link="https://qrcode-psi-seven.vercel.app"
               />
             </div>
           </div>
