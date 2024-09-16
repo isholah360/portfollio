@@ -49,6 +49,9 @@
     background: rgba(211, 211, 211, 0.205);
     padding: .15rem .45rem;
 }
+.projec-logo:hover{
+    opacity: .5;
+}
 .port-img-cover{
  position: absolute;
  display: flex;

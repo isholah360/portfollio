@@ -232,7 +232,8 @@ margin: 5px 5px;
        
     }
     .showresume{
-        min-height: 550vh;
+        min-height: 100%;
+        padding-bottom: 6em;
     }
     .portshow{
         min-height: 280vh;
