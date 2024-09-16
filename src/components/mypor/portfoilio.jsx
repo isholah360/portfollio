@@ -12,7 +12,7 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
-export default function Portfoilio({ title, content, pic, link }) {
+export default function Portfoilio({ title, content, pic, link, code }) {
   const ref = useRef(null);
   const parallaxRef = useRef(null);
   const parallaxa = useRef(null);
@@ -92,9 +92,11 @@ export default function Portfoilio({ title, content, pic, link }) {
               <div className="projec-logo">
                 CSS <FaCss3Alt style={{ color: "#2965f1" }} />
               </div>
-              <div className="projec-logo">
-                Code <FaGithub />
-              </div>
+              <Link to={code} style={{ color: "#fff" }}>
+                <div className="projec-logo">
+                  Code <FaGithub />
+                </div>
+              </Link>
               <Link style={{ color: "#fff" }} to={link}>
                 <div className="projec-logo">
                   Live Preview
@@ -109,7 +111,7 @@ export default function Portfoilio({ title, content, pic, link }) {
   );
 }
 
-export function Port({ title, content, pic, link, title2 }) {
+export function Port({ title, content, pic, link, title2, code }) {
   const ref = useRef(null);
   const parallaxRef = useRef(null);
   const parallaxa = useRef(null);
@@ -161,11 +163,14 @@ export function Port({ title, content, pic, link, title2 }) {
     );
   }, []);
   return (
-    <div  ref={parallaxRef}>
+    <div ref={parallaxRef}>
       <div className="whole-portfolio">
         <div className="whole-project" ref={parallaxa}>
           <div className="desvription">
-            <div className="proj-title">{title}<span style={{color:"brown"}}>{title2}</span></div>
+            <div className="proj-title">
+              {title}
+              <span style={{ color: "brown" }}>{title2}</span>
+            </div>
             <div className="proj-content">{content}</div>
             <div className="whole-logo back-port">
               <div className="projec-logo">
@@ -174,14 +179,16 @@ export function Port({ title, content, pic, link, title2 }) {
               <div className="projec-logo">
                 CSS <FaCss3Alt style={{ color: "#2965f1" }} />
               </div>
+              <Link to={code} style={{ color: "#fff" }}>
+                <div className="projec-logo">
+                  Code <FaGithub />
+                </div>
+              </Link>
               <div className="projec-logo">
-                Code <FaGithub />
+                express <SiExpress style={{ color: "green" }} />
               </div>
               <div className="projec-logo">
-                express <SiExpress  style={{color:"green"}}/>
-              </div>
-              <div className="projec-logo" >
-               MongoDB <SiMongodb  style={{color:"green"}} />
+                MongoDB <SiMongodb style={{ color: "green" }} />
               </div>
               <Link style={{ color: "#fff" }} to={link}>
                 <div className="projec-logo">
@@ -192,10 +199,16 @@ export function Port({ title, content, pic, link, title2 }) {
             </div>
           </div>
           <Link to={link}>
-            <div className="image-pro" onMouseEnter={animateCover}
-              onMouseLeave={coverMove}>
+            <div
+              className="image-pro"
+              onMouseEnter={animateCover}
+              onMouseLeave={coverMove}
+            >
               <img src={pic} alt="" />
-              <div ref={ref} className="port-img-cover">  Live Preview</div>
+              <div ref={ref} className="port-img-cover">
+                {" "}
+                Live Preview
+              </div>
             </div>
           </Link>
         </div>

@@ -175,6 +175,8 @@ const Portfolio = () => {
             title="Flash"
             title2="News"
             link="https://flashnews-y0dp.onrender.com/"
+            code="https://github.com/isholah360/flashnews
+"
           />
 
           <br />
@@ -186,6 +188,7 @@ const Portfolio = () => {
             pic="/assets/delan.png"
             title="Homer"
             link="https://realestate-68nv.vercel.app"
+            code="ode"
           />
           <br />
           <br />
@@ -196,6 +199,7 @@ const Portfolio = () => {
             pic="/assets/date.png"
             title="DateUp"
             link="https://dateup.vercel.app"
+              code="https://github.com/isholah360/dateup"
           />
 
           <br />
@@ -210,6 +214,7 @@ const Portfolio = () => {
                 pic="/assets/golfer.png"
                 title="GOlf-Together"
                 link="https://qrcode-psi-seven.vercel.app"
+                  code="https://github.com/isholah360/qrcode"
               />
             </div>
           </div>
