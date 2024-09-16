@@ -9,9 +9,9 @@ function Resume() {
   return (
     <div>
         <div className='resume-bg'>
-             <div className="outside"></div>
+             <div className="outside">
               <div className="resume-head">
-                <p>Get to know us</p>
+                <p>Get to know me</p>
                 <p className="resumeme">Resume</p>
                 <hr className="horilinea"></hr>
               </div>
@@ -152,6 +152,7 @@ function Resume() {
                     <img className="videoimg" src={vide} alt="" />
                   </div>
                 </div>
+              </div>
               </div>
         </div>
         

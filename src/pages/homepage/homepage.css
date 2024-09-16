@@ -10,7 +10,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
-  width: 100vw;
+  width: 100lvw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -29,7 +29,7 @@
 }
 .about {
   min-height: 100vh;
-  width: 100vw;
+  width: 100lvw;
   background-color: white;
   position: absolute;
   top: 0;
@@ -37,7 +37,8 @@
   display: none;
 }
 .show {
-  min-height: 100vh;
+  /* min-height: 100vh; */
+  padding: 5rem 0% 3rem 0%;
   width: 100vw;
   background-color: white;
   position: absolute;

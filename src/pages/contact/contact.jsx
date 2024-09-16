@@ -4,7 +4,7 @@ function Contact() {
   return (
     <div>
        <div className='contact-bg'>
-             <div className="outside"></div>
+             <div className="outside">
               <div className="contact-head">
                 <p className="top-level">Feel free to contact me anytimes</p>
                 <p className="contactme">Get In Touch</p>
@@ -70,7 +70,7 @@ function Contact() {
               
            </div>
              
-            
+           </div>
         </div>
            
 

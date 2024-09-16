@@ -159,66 +159,68 @@ const Portfolio = () => {
 
   return (
     <>
+     <div>
       <div className="port-folio">
-        <div className="port-bg" handleTag={setTags}>
-          <div className="port-head">
-            <p>Showcasing some of my best work</p>
-            <p className="portme">Portfolio</p>
-            <hr className="horiline  horport"></hr>
-          </div>
-
-          <Port
-            content=" A mobile-friendly platform connecting singles, 
-            featuring user profiles, matching algorithms, messaging, 
-            and location-based search for potential romantic partners."
-            pic="/assets/news.png"
-            title="Flash"
-            title2="News"
-            link="https://flashnews-y0dp.onrender.com/"
-            code="https://github.com/isholah360/flashnews
-"
-          />
-
-          <br />
-          <br />
-          <Portfoilio
-            content=" A dynamic web application showcasing property listings, allowing
-              users to search, filter, and view detailed information about
-              available real estate."
-            pic="/assets/delan.png"
-            title="Homer"
-            link="https://realestate-68nv.vercel.app"
-            code="ode"
-          />
-          <br />
-          <br />
-          <Port
-            content=" A mobile-friendly platform connecting singles, 
-            featuring user profiles, matching algorithms, messaging, 
-            and location-based search for potential romantic partners."
-            pic="/assets/date.png"
-            title="DateUp"
-            link="https://dateup.vercel.app"
-              code="https://github.com/isholah360/dateup"
-          />
-
-          <br />
-          <br />
-
-          <div className="first-parallax" ref={parallaxRef}>
-            <div className="seco-parallax" ref={parallaxa}>
-              <Portfoilio
-                content=" A dynamic web application showcasing property listings, allowing
-              users to search, filter, and view detailed information about
-              available real estate."
-                pic="/assets/golfer.png"
-                title="GOlf-Together"
-                link="https://qrcode-psi-seven.vercel.app"
-                  code="https://github.com/isholah360/qrcode"
-              />
+        <div className="outside">
+          <div className="port-bg" handleTag={setTags}>
+            <div className="port-head">
+              <p>Showcasing some of my best work</p>
+              <p className="portme">Portfolio</p>
+              <hr className="horiline  horport"></hr>
             </div>
-          </div>
-          {/* <div className="btn-container" >
+
+            <Port
+              content=" A mobile-friendly platform connecting singles, 
+            featuring user profiles, matching algorithms, messaging, 
+            and location-based search for potential romantic partners."
+              pic="/assets/news.png"
+              title="Flash"
+              title2="News"
+              link="https://flashnews-y0dp.onrender.com/"
+              code="https://github.com/isholah360/flashnews
+"
+            />
+
+            <br />
+            <br />
+            <Portfoilio
+              content=" A dynamic web application showcasing property listings, allowing
+              users to search, filter, and view detailed information about
+              available real estate."
+              pic="/assets/delan.png"
+              title="Homer"
+              link="https://realestate-68nv.vercel.app"
+              code="ode"
+            />
+            <br />
+            <br />
+            <Port
+              content=" A mobile-friendly platform connecting singles, 
+            featuring user profiles, matching algorithms, messaging, 
+            and location-based search for potential romantic partners."
+              pic="/assets/date.png"
+              title="DateUp"
+              link="https://dateup.vercel.app"
+              code="https://github.com/isholah360/dateup"
+            />
+
+            <br />
+            <br />
+
+            <div className="first-parallax" ref={parallaxRef}>
+              <div className="seco-parallax" ref={parallaxa}>
+                <Portfoilio
+                  content=" A dynamic web application showcasing property listings, allowing
+              users to search, filter, and view detailed information about
+              available real estate."
+                  pic="/assets/golfer.png"
+                  title="GOlf-Together"
+                  link="https://qrcode-psi-seven.vercel.app"
+                  code="https://github.com/isholah360/qrcode"
+                />
+              </div>
+            </div>
+            {/* <div className="btn-container" >
                 <Button titles="all" handleTag={setTags}/>
                 <Button titles="design" handleTag={setTags} />
                 <Button titles="branding" handleTag={setTags}/>
@@ -239,7 +241,9 @@ const Portfolio = () => {
 
                         </div>
                     </div> */}
+          </div>
         </div>
+      </div>
       </div>
     </>
   );

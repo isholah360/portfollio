@@ -10,12 +10,11 @@
     color: white;
     overflow-y: hidden;
     overflow: unset;
+    margin: -5rem 0;
 }
 .outside{
     background: rgb(16, 16, 16);
     position: absolute;
-
-    
 }
 .horilinea{
     width: 10rem;

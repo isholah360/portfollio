@@ -78,7 +78,7 @@
     display: flex; 
 }
 .showresume{
-    min-height: 400vh;
+    height: 390vh;
     width: 100vw;
     background-color: rgb(16, 16, 16);
     position:absolute ; 
@@ -232,7 +232,7 @@ margin: 5px 5px;
        
     }
     .showresume{
-        min-height: 620vh;
+        min-height: 550vh;
     }
     .portshow{
         min-height: 280vh;

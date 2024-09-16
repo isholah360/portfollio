@@ -1,5 +1,6 @@
 .port-bg{
-    max-height: 100vh;
+    background: rgb(16, 16, 16);
+    padding: 5rem 0;
     width: 100vw;
     position: absolute;
     z-index: 120;
@@ -9,7 +10,11 @@
     overflow-y: hidden;
     overflow: unset;
 }
-
+.outside{
+    background: rgb(16, 16, 16);
+    position: absolute;
+    height: 100%;
+}
 .horiline{
     width: 10rem;
     margin-left: 44%;
@@ -116,5 +121,9 @@
     }
     .button-prop{
         font-size: .8rem; 
+    }
+    .outside{
+        background: rgb(16, 16, 16);
+        position: absolute;
     }
 }

@@ -1,6 +1,6 @@
 .contact-bg{
-    min-height: 100vh;
     width: 100vw;
+    height: 100%;
     position: absolute;
     z-index: 120;
     justify-content: center;
@@ -8,11 +8,14 @@
     color: white;
     overflow-y: hidden;
     overflow: unset;
+    padding: 5rem 0 0 0;
+    background: rgb(16, 16, 16);
+    
 }
 .outside{
     background: rgb(16, 16, 16);
     position: absolute;
-    
+   
 }
 main{
     width: 90%;
