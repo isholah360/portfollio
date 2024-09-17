@@ -10,9 +10,9 @@
     color: white;
     overflow-y: hidden;
     overflow: unset;
-    
     height: 100%;
-  
+    background: rgb(16, 16, 16);
+    margin: -5rem 0;
 }
 .outside{
     background: rgb(16, 16, 16);
@@ -164,5 +164,9 @@
        align-items: center;
         
     }
-    .about-bg{overflow-x: hidden;}
+    .about-bg{
+        overflow-x: hidden;
+        height: 200%;
+    }
+    
 }
