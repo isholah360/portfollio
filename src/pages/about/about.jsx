@@ -11,9 +11,9 @@ function About() {
 
   return (
     
-    <div >
+    <div  >
       <div className='about-bg'>
-       <div className="outside"></div>
+       <div className="">
           <div className="about-head">
             <p>Get to know me</p>
             <p className="aboutme">About Me</p>
@@ -58,7 +58,7 @@ function About() {
              source={('../../assets/team.png')}/>
             </div>
           </div>   
-        
+          </div>
       </div>
     </div>
     

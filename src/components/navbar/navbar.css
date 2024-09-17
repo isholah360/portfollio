@@ -69,7 +69,7 @@
     display: none; 
 }
 .show{
-    min-height: 555vh;
+    min-height: 545vh;
     width: 100vw;
     background-color: rgb(16, 16, 16);
     position:absolute ; 
@@ -227,10 +227,7 @@ margin: 5px 5px;
      .showresume, .showresume{
         z-index: 122;
     }
-    .show{
-        min-height: 1050vh;
-       
-    }
+
     .showresume{
         min-height:450vh;
     }

@@ -10,7 +10,9 @@
     color: white;
     overflow-y: hidden;
     overflow: unset;
-    margin: -5rem 0;
+    
+    height: 100%;
+  
 }
 .outside{
     background: rgb(16, 16, 16);
