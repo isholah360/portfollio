@@ -96,7 +96,7 @@
     display: flex; 
 }
 .showblog{
-    /* min-height: 220vh; */
+    min-height: 220vh;
     width: 100vw;
     background-color: rgb(16, 16, 16);
     position:absolute ; 
@@ -235,7 +235,8 @@ margin: 5px 5px;
         min-height: 280vh;
     }
     .showblog{
-        min-height: 480vh;
+    
+        padding: 0rem 0 5rem 0;
     }
     .showcontact{
         min-height: 180vh;
