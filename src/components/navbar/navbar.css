@@ -228,7 +228,7 @@ margin: 5px 5px;
         z-index: 122;
     }
     .show{
-        min-height: 1070vh;
+        min-height: 1050vh;
        
     }
     .showresume{
@@ -238,10 +238,10 @@ margin: 5px 5px;
         min-height: 280vh;
     }
     .showblog{
-        min-height: 520vh;
+        min-height: 480vh;
     }
     .showcontact{
-        min-height: 220vh;
+        min-height: 180vh;
     }
     
 }

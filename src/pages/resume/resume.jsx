@@ -148,7 +148,7 @@ function Resume() {
                           sense of comfort.
                       </p>
                     </div>
-                  <div className="thevideo">
+                  <div className="thevideo" >
                     <img className="videoimg" src={vide} alt="" />
                   </div>
                 </div>

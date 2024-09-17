@@ -215,6 +215,7 @@
     .thevideo{
         width: 150%;
         margin:-4rem -4rem;
+        padding: 0 0 2rem 0;
     }
 }
 @media screen and (max-width: 360px) {
