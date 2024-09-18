@@ -164,8 +164,8 @@ export function Port({ title, content, pic, link, title2, code }) {
   }, []);
   return (
     <div ref={parallaxRef}>
-      <div className="whole-portfolio">
-        <div className="whole-project" ref={parallaxa}>
+      <div className="whole-portfolio ">
+        <div className="whole-project whole-sec" ref={parallaxa}>
           <div className="desvription">
             <div className="proj-title">
               {title}

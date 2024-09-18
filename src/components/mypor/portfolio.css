@@ -37,6 +37,9 @@
     text-align: center;
     font-size: clamp(1.2vw, 1.5vw + .35rem, .5rem);
 }
+.whole-sec{
+    flex-wrap: wrap-reverse;
+}
 .back-port{
     width: 75%;
     padding: 1rem 12%;
