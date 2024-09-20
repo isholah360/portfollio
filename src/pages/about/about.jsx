@@ -17,12 +17,12 @@ function About() {
           <div className="about-head">
             <p>Get to know me</p>
             <p className="aboutme">About Me</p>
-            <hr className="horilinea"></hr>
+            <hr className="a-horilinea"></hr>
           </div>
           
           <div className="about-details">
             <div className="myimg">
-              <img className="realimga" src="assets/myimg.jpeg" alt="" />
+              <img className="realimga" src="assets/mee.png" alt="" />
             </div>
             <Content/>
         </div>
