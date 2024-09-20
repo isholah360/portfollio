@@ -1,6 +1,5 @@
 .resume-bg{
     width: 100vw;
-    height: 100%;
     position: absolute;
     z-index: 120;
     justify-content: center;
@@ -155,7 +154,7 @@
 @media screen and (max-width: 480px) {
     .resume-bg{
         overflow-x: hidden;
-        min-height:145%;
+        height:145%;
     }
     .resumeme{
         font-size: 2rem;
