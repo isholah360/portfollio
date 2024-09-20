@@ -1,366 +1,399 @@
-.contact-bg{
-    width: 100vw;
-    height: 100%;
-    position: absolute;
-    z-index: 120;
-    justify-content: center;
-    top: 0;
-    color: white;
-    overflow-y: hidden;
-    overflow: unset;
-    padding: 5rem 0 0 0;
-    background: rgb(16, 16, 16);
-    
+.contact-bg {
+  width: 100vw;
+  height: 100%;
+  position: absolute;
+  z-index: 120;
+  justify-content: center;
+  top: 0;
+  color: white;
+  overflow-y: hidden;
+  overflow: unset;
+  padding: 3rem 0 0 0;
+  background: rgb(16, 16, 16);
 }
-.outside{
-    background: rgb(16, 16, 16);
-    position: absolute;
-   
+.outside {
+  background: rgb(16, 16, 16);
+  position: absolute;
+  padding: 1rem 10% 1rem 5%;
 }
-main{
-    width: 90%;
-    max-width: 35rem;
-    margin: 1rem auto;
+main {
+  width: 90%;
+  max-width: 35rem;
+  margin: 1rem auto;
 }
-.worth{
-   width: 90%;
-   height: 1.5rem;
-   padding: 1rem 1rem;
+.worth {
+  width: 90%;
+  height: 1.5rem;
+  padding: 1rem 1rem;
 }
-.checkdetail{
-    max-width: 50rem;
-    width: 75%;
-    margin: 0rem auto;
-    
- }
-.top-level{
-    color: gray;
+.checkdetail {
+  max-width: 50rem;
+  width: 75%;
+  margin: 0rem auto;
 }
-.wholeform{
-    margin-left: -10rem;
+.top-level {
+  color: gray;
 }
-.horiline{
-    width: 10rem;
-    margin-left: 44%;
-    height: 5px;
-    color: rgb(0,158,102);
-    background-color: rgb(0,158,102);
-    border-style: none;
+.wholeform {
+  margin-left: -10rem;
 }
-.contact-head{
-    margin-top: 6rem ;
-    font-size: 1.2;
-    text-align: center;
-    color: white;
-    font-family: 'Questrial', sans-serif;
+.horilin {
+  width: 10rem;
+  height: 5px;
+  color: rgb(0, 158, 102);
+  background-color: rgb(0, 158, 102);
+  border-style: none;
 }
-.about-details{
-    display: flex;
-    gap: 5rem;
-    flex: 1 3;
-    margin: 3rem 0;
-    justify-content: center;
+.contact-head {
+  margin-top: 6rem;
+  display: grid;
+  justify-items: center;
+  font-size: 1.2;
+  text-align: center;
+  color: white;
+  font-family: "Questrial", sans-serif;
 }
-.contactme{
-    font-size: 3rem;
-    font-weight: bolder;
-    font-family: 'Mulish', sans-serif;
-    margin: 1.5rem 0rem;
-    color: white;
+.about-details {
+  display: flex;
+  gap: 5rem;
+  flex: 1 3;
+  margin: 3rem 0;
+  justify-content: center;
 }
-.identity{
-    padding: .7rem 0rem .7rem 2rem;
-    font-family: 'Questrial', sans-serif;
-    font-size: 1.2rem;
-    background: rgb(22, 22, 22);
-    border-style: none;
-    width: 90%;
-    max-width: 20.3rem;
-    
+.contactme {
+  font-size: 3rem;
+  font-weight: bolder;
+  font-family: "Mulish", sans-serif;
+  margin: 1.5rem 0rem;
+  color: white;
 }
-.form{ 
-    display: flex;
-    flex: 3 1;
-    margin: 10rem 0rem;
-    gap: 2rem;
-    justify-content: center;
-    align-items: center;
-  
+.identity {
+  padding: 0.7rem 0rem 0.7rem 2rem;
+  font-family: "Questrial", sans-serif;
+  font-size: 1.2rem;
+  background: rgb(22, 22, 22);
+  border-style: none;
+  width: 90%;
+  max-width: 20.3rem;
+}
+.form {
+  display: flex;
+  flex: 3 1;
+  margin: 10rem 0rem;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
 }
 
-.subject{
-    padding: .7rem 0rem .7rem 2rem;
-    font-family: 'Questrial', sans-serif;
-    font-size: 1.2rem;
-    background: rgb(22, 22, 22);
-    border-style: none;
-    width: 90%;
-    max-width: 42rem;
+.subject {
+  padding: 0.7rem 0rem 0.7rem 2rem;
+  font-family: "Questrial", sans-serif;
+  font-size: 1.2rem;
+  background: rgb(22, 22, 22);
+  border-style: none;
+  width: 90%;
+  max-width: 42rem;
 }
-.messages{
-    padding: .7rem 0rem .7rem 2rem;
-    font-family: 'Questrial', sans-serif;
-    font-size: 1.2rem;
-    background: rgb(22, 22, 22);
-    border-style: none;
-    color: gray;
-    width: 90%;
-    max-width: 42rem;
+.messages {
+  padding: 0.7rem 0rem 0.7rem 2rem;
+  font-family: "Questrial", sans-serif;
+  font-size: 1.2rem;
+  background: rgb(22, 22, 22);
+  border-style: none;
+  color: gray;
+  width: 90%;
+  max-width: 42rem;
 }
-.sendmsg{
-    background-color: rgb(0,158,102);
-    padding: 12px 25px;
-    border-style: none;
-    border-radius: 20px;
-    color: white;margin: .8rem 0rem;
+.sendmsg {
+  background-color: rgb(0, 158, 102);
+  padding: 12px 25px;
+  border-style: none;
+  border-radius: 20px;
+  color: white;
+  margin: 0.8rem 0rem;
 }
-.myinfo{
-    margin: .5rem 0rem;
-    margin-left: 3rem;
-  
+.myinfo {
+  margin: 0.5rem 0rem;
+  margin-left: 3rem;
 }
-.infologo{
-    display: flex;
-    flex-direction: column;
-    margin-top: -5rem;
-    margin: 0rem 2rem;
+.infologo {
+  display: flex;
+  flex-direction: column;
+  /* margin: 0rem 4rem; */
+  gap: 1rem;
 }
 
-.inforelogo{
-    width: 8%;
-    margin: 1.1rem 0rem;
-    filter: invert(44%) sepia(73%) 
-    saturate(5324%) hue-rotate(143deg) 
+.themsg {
+  font-family: "Questrial", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin: 0rem 0rem 1rem 0rem;
+}
+.main-contact-head {
+  font-family: "Questrial", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin: 0rem 0rem 1rem 39.5rem;
+}
+.main-contact-body {
+  width: 25rem;
+  font-family: "Questrial", sans-serif;
+  font-size: 1.1rem;
+  margin-top: 1.2rem;
+  margin-left: 1.2rem;
+}
+.classic {
+  height: 27rem;
+  margin: -3.5rem 8rem;
+  position: absolute;
+}
+
+.compl-personal-info {
+  display: flex;
+  margin-top: 0rem;
+}
+.personalinfo {
+  margin: 0rem 4.5rem;
+  width: 100%;
+}
+.individual-info {
+  display: flex;
+  gap: 0 3rem;
+  width: 100%;
+}
+.img-logo {
+  width: 2.5rem;
+  margin: 1.1rem 0rem;
+  filter: invert(44%) sepia(73%) saturate(5324%) hue-rotate(143deg)
     brightness(97%) contrast(102%);
 }
-.themsg {
-    font-family: 'Questrial', sans-serif;
-    font-size: 1.3rem;
-    font-weight: 600;
-    margin: 0rem 0rem 1rem 0rem;
+.myname {
+  font-family: "Questrial", sans-serif;
+  font-weight: 600;
+  margin: 1.8rem 0rem 0.7rem 0rem;
 }
-.main-contact-head{
-    font-family: 'Questrial', sans-serif;
-    font-size: 1.3rem;
-    font-weight: 600;
-    margin: 0rem 0rem 1rem 39.5rem;
+.information {
+  color: gray;
+  font-family: "Questrial", sans-serif;
+  font-size: 1.2rem;
 }
-.main-contact-body{
-    width: 25rem;
-    font-family: 'Questrial', sans-serif;
-    font-size: 1.1rem;
-    margin-top: 1.2rem;
-    /* margin-left: -17rem; */
-    
+.info-heading {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 7rem 5rem 5rem 6rem;
 }
-.classic{
-   height: 17rem;
-   margin: -18rem 7rem;
-   position: absolute;
+.brake {
+  display: none;
 }
-.personalinfo{
-    margin-left: 10rem;
-    margin-top: -18rem;
-  
+.messagesx {
+  display: none;
+  padding: 0.7rem 0rem 0.7rem 2rem;
+  font-family: "Questrial", sans-serif;
+  font-size: 1.2rem;
+  background: rgb(22, 22, 22);
+  border-style: none;
+  color: gray;
+  width: 42rem;
 }
-.compl-personal-info{
-    display: flex;
-    margin-top: -7rem;
-    
+.mainmsg,
+.mainmyinfo {
+  display: none;
 }
-
-.individual-info{
-   margin-bottom: 1.5rem;
+.formandetail {
+  display: flex;
+  gap: 1rem;
 }
-.myname{
-    font-family: 'Questrial', sans-serif;
-    font-weight: 600; 
-    margin: 1rem 0rem 0.7rem 0rem;
+.test {
+  margin: 10rem 0rem;
+  gap: 1rem;
 }
-.information{
-    color: gray;
-    font-family: 'Questrial', sans-serif;
-    font-size: 1.2rem;
+.main-torm-det {
+  width: 40%;
 }
-.info-heading{
-    position: absolute;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 7rem 5rem 5rem 6rem;
-}
-.brake{
-    display: none;
-}
-.messagesx{
-    display: none;
-    padding: .7rem 0rem .7rem 2rem;
-    font-family: 'Questrial', sans-serif;
-    font-size: 1.2rem;
-    background: rgb(22, 22, 22);
-    border-style: none;
-    color: gray;
-    width: 42rem;
-}
-.mainmsg, .mainmyinfo{ display: none;}
-.test{
-    width: 60%;
-    margin-left: 5rem;
-    margin: 10rem 0rem;
-    gap: 1rem;
-}
-
-.testing, .thesubject{
-  height: 2.5rem;
-  width: 42.5%;
-  max-width: 35rem;
-  padding: .7rem 1.5rem;
-  margin-left: 5rem;
+.thesubject {
+  padding: 0.8rem 1.5rem;
   margin-right: 2rem;
   font-size: 1.2rem;
   background: rgb(22, 22, 22);
-    border-style: none;
-    color: gray;
+  border-style: none;
+  color: gray;
 }
-.testingsec{
-    height: 2.5rem;
-    width: 42.5%;
-    max-width: 35rem;
-    padding: .7rem 1.5rem;
-    font-size: 1.2rem;
-    background: rgb(22, 22, 22);
-    border-style: none;
-    color: gray;
-    
+.name-mail {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 1.75rem;
+  margin: 0 0 -1rem 0;
 }
-.thesubject{
-    width: 100%;
-    max-width: 43rem;
+.name-mail div {
+  width: 47.5%;
 }
-.themsgz{
-    width: 100%;
-    max-width: 43rem;
-    margin-left: 5rem;
-    padding: .7rem 1.5rem;
-    font-size: 1.2rem;
-    outline: none;
-    font-family: 'Questrial', sans-serif;
-    background: rgb(22, 22, 22);
+.testingsec,
+.testingfir {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  font-size: 1.2rem;
+  background: rgb(22, 22, 22);
+  border-style: none;
+  color: gray;
 }
-.formandetail{
-    display: flex;
-    
+.testfir {
+  margin-left: 1rem;
 }
-.moredetail{
-    margin: 10rem ;
-    margin-left: -.8rem;
+.thesubject {
+  width: 100%;
 }
-.cont{
-    display: none;
+.themsgz {
+  width: 100%;
+  padding: 0.7rem 1.5rem;
+  font-size: 1.2rem;
+  outline: none;
+  font-family: "Questrial", sans-serif;
+  background: rgb(22, 22, 22);
 }
 
-@media screen and (max-width: 480px) {
-   .contact-bg{
+.moredetail {
+  margin: 10rem 0 0 5rem;
+}
+.cont {
+  display: none;
+}
+.submit-buton {
+  margin: 1rem 0 0 0;
+  position: absolute;
+}
+
+@media screen and (max-width: 678px) {
+  .contact-bg {
     overflow-x: hidden;
-   }
-   .testingsec, .themsgz, .thesubject{
-   margin-left: 4.5rem;
-   width: 95%;
+    height: 140%;
+  }
+  .testingsec,
+  .themsgz,
+  .thesubject {
+    margin-left: 4.5rem;
+    width: 95%;
+  }
+  .test {
+    width: 95%;
+    margin: 2rem -3.5rem;
     
   }
-   .test{
-    width: 90%;
-    margin-left: 2rem;
-    margin-left: -3rem;
+  .outside{
+    padding: 0 5%; 
+    height: 100%;
   }
-  .testing{
-    width: 95%;
+  .input-fir{
     margin-left: 4.5rem;
     
   }
-  .formandetail{
+  .input-fir input{
+    width: 116%;
+  }
+  .testing {
+    width: 95%;
+    margin-left: 4.5rem;
+  }
+  .formandetail {
     display: flex;
     flex-direction: column;
   }
-   
-    .form{
-        flex-direction: column;
-        margin: 7rem 2rem;
-    }
-    .checkdetail{
-       max-width: 450px;
-       width: 85%;
-       margin: 0rem auto;
-       margin-left: 10rem; 
-    }
-    .identity{
-        padding: .7rem 3rem .7rem 1rem;
-        width: 100%;  
-        max-width: 24rem;
-    }
-    .brake{
-        display: block;
-    }
-    .subject{
-        width: 100%;  
-        max-width: 24rem;
-        padding: .7rem 3rem .7rem 1rem;
-    }
-    .messages{
-       display: none;
-    }
-    .messagesx{
-        display: block;
-        padding: .7rem 2rem .7rem 1rem;
-        width: 100%;
-        max-width: 24rem;
-     }
-     .myinfo{
-        margin: 2rem 1rem;
-     }
-     .main-contact-body{
-        font-size: .9rem;
-        color: gray;
-        max-width: 20rem;
-        margin: -15rem 0rem 0rem 2rem;
-        position: absolute;
-     }
-     .inforelogo{
-        width: 8%;
-       
-     }
-     .infologo{
-        margin: -12rem -5rem;
-     }
-     .personalinfo{
-        margin-top: -11rem;
-      
-    }
-     .classic{
-        margin: -11rem 7rem;
-     }
-     .myname, .information{
-        font-size: .9rem;
-     }
-     .individual-info{
-        margin-left: -1.5rem;
-     }
-   
-    .info-heading{
-        display: none;
-    }
-    .compl-personal-info{
-        display: flex;
-        margin-top: 1rem;
-        margin-left: 8rem; 
-    }
-    .cont{
-        display: block;
-        position: absolute;
-        margin: -18rem 0rem 0rem -5rem;
-        color: white;
-        font-size: 1.2rem;
-        font-family: 'Questrial', sans-serif;
-    }
+  .name-mail div {
+    width: 100%;
+  }
+  .form {
+    flex-direction: column;
+    margin: 7rem 2rem;
+  }
+  .checkdetail {
+    max-width: 450px;
+    width: 85%;
+    margin: 0rem auto;
+    margin-left: 10rem;
+  }
+  .identity {
+    padding: 0.7rem 3rem 0.7rem 1rem;
+    width: 100%;
+    max-width: 24rem;
+  }
+  .brake {
+    display: block;
+  }
+  .subject {
+    width: 100%;
+    max-width: 24rem;
+    padding: 0.7rem 3rem 0.7rem 1rem;
+  }
+  .messages {
+    display: none;
+  }
+  .messagesx {
+    display: block;
+    padding: 0.7rem 2rem 0.7rem 1rem;
+    width: 100%;
+    max-width: 24rem;
+  }
+  .myinfo {
+    margin: 2rem 1rem;
+  }
+  .main-contact-body {
+    font-size: 0.9rem;
+    color: gray;
+    width: 80%;
+    margin: -3.7rem 0rem 0rem -4.5rem;
+    position: absolute;
+  }
+  .inforelogo {
+    width: 6%;
+  }
+  .infologo {
+    margin: -12rem -5rem;
+  }
+  .personalinfo {
+    margin-top: 2rem;
+    margin: 0 5% 0 2.5rem;
     
+  }
+  .classic {
+    margin: 1rem 5rem;
+    height: 20rem;
+  }
+  .myname,
+  .information {
+    font-size: clamp(1vw, 1.8vw + .5rem, 1.2rem);
+    margin: 1.8rem 0;
+    position: absolute;
+  }
+  .information {
+    margin: 4.2rem 0;
+  
+  }
+  .individual-info {
+    margin-left: -1.5rem;
+  }
+
+  .info-heading {
+    display: none;
+  }
+  .compl-personal-info {
+    display: flex;
+    margin-top: 10rem;
+    margin-left: 8rem;
+  }
+  .cont {
+    display: block;
+    position: absolute;
+    margin: -7rem 0rem 0rem -6.5rem;
+    color: white;
+    font-size: 1.2rem;
+    font-family: "Questrial", sans-serif;
+  }
+  .test button{
+    margin-left: 5rem;
+  }
+  /* .main-torm-de{
+    margin: 5rem 0;
+  } */
 }
