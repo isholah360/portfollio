@@ -154,7 +154,7 @@
 @media screen and (max-width: 480px) {
     .resume-bg{
         overflow-x: hidden;
-        height:145%;
+        height:100%;
     }
     .resumeme{
         font-size: 2rem;
