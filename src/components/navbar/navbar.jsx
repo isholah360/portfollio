@@ -4,7 +4,6 @@ import gsap from "gsap";
 import { Power3 } from "gsap/src/index";
 import { About, Resume, Portfolio, Blog, Contact } from "../../pages";
 
-
 const Navbar = () => {
   const node1 = useRef(null);
   const nodea = useRef(null);
@@ -32,6 +31,43 @@ const Navbar = () => {
   const premiere = useRef(null);
   const [displayz, setDisplayz] = useState(true);
 
+  const [isMobile, setIsMobile] = useState(false); // Track if it's mobile screen
+  const [navies, setNavies] = useState(true);
+
+  // Check for screen width changes
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768); // 768px or less is considered mobile
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    // Initial check
+    handleResize();
+
+    // Cleanup event listener on component unmount
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  // GSAP animations for large screens
+  useEffect(() => {
+    if (!isMobile && navies) {
+      gsap.fromTo(
+        [nodea.current, nodeb.current, nodec.current, noded.current, nodee.current],
+        { opacity: 0, y: "-5rem" },
+        {
+          opacity: 1,
+          y: "0rem",
+          duration: 1.5,
+          ease: Power3.outIn,
+          transformOrigin: "left",
+          delay: 2.5,
+          stagger: { amount: 1 },
+        }
+      );
+    }
+  }, [navies, isMobile]);
+
   const show = () => {
     setDisplayz(!true);
     state.current.style.display = "show";
@@ -49,6 +85,7 @@ const Navbar = () => {
       }
     );
   };
+
   const closer = () => {
     gsap.fromTo(
       [state.current, showing.current],
@@ -65,6 +102,7 @@ const Navbar = () => {
     );
     state.current.style.display = "about";
   };
+
   const showResume = () => {
     showz.current.classList = "showresume";
     gsap.fromTo(
@@ -81,6 +119,7 @@ const Navbar = () => {
       }
     );
   };
+
   const closing = () => {
     gsap.fromTo(
       [statez.current, showz.current],
@@ -96,6 +135,7 @@ const Navbar = () => {
       }
     );
   };
+
   const showPort = () => {
     port.current.classList = "portshow";
     gsap.fromTo(
@@ -112,6 +152,7 @@ const Navbar = () => {
       }
     );
   };
+
   const closePort = () => {
     gsap.fromTo(
       [ports.current, port.current],
@@ -127,6 +168,7 @@ const Navbar = () => {
       }
     );
   };
+
   const showBlog = () => {
     blog.current.classList = "showblog";
     gsap.fromTo(
@@ -143,6 +185,7 @@ const Navbar = () => {
       }
     );
   };
+
   const closeBlog = () => {
     gsap.fromTo(
       [blogIn.current, blog.current],
@@ -158,6 +201,7 @@ const Navbar = () => {
       }
     );
   };
+
   const showContact = () => {
     contact.current.classList = "showcontact";
     gsap.fromTo(
@@ -174,6 +218,7 @@ const Navbar = () => {
       }
     );
   };
+
   const closeContact = () => {
     gsap.fromTo(
       [contactIn.current, contact.current],
@@ -189,10 +234,12 @@ const Navbar = () => {
       }
     );
   };
-  const [navies, setNavies] = useState(true);
+
   const showMenu = () => {
     setNavies(!navies);
   };
+
+  // Hover effects
   const chgAbo = () => (hoverAbou.current.style.opacity = "1");
   const changeAbo = () => (hoverAbou.current.style.opacity = "0");
   const chgResume = () => (hoverResume.current.style.opacity = "1");
@@ -204,57 +251,12 @@ const Navbar = () => {
   const changeCont = () => (hoverCont.current.style.opacity = "0");
   const chgCont = () => (hoverCont.current.style.opacity = "1");
 
-  useEffect(() => {
-    if (navies === true) {
-      gsap.fromTo(
-        [
-          nodea.current,
-          nodeb.current,
-          nodec.current,
-          noded.current,
-          nodee.current,
-        ],
-        { opacity: 0, y: "-5rem" },
-        {
-          opacity: 1,
-          y: "0rem",
-          duration: 2.5,
-          ease: Power3.outIn,
-          transformOrigin: "left",
-          delay: 2.5,
-          stagger: { amount: 1 },
-        }
-      );
-    }
-
-    gsap.fromTo(
-      [
-        nodea.current,
-        nodeb.current,
-        nodec.current,
-        noded.current,
-        nodee.current,
-      ],
-      { opacity: 0, y: "-5rem" },
-      {
-        opacity: 1,
-        y: "0rem",
-        duration: 2.5,
-        ease: Power3.outIn,
-        transformOrigin: "left",
-        delay: 2.5,
-        stagger: { amount: 1 },
-      }
-    );
-  }, [navies]);
-
   return (
     <>
       <div>
         <div className="complet-nav">
-        <li className="logo">Abdulfatah.</li>
+          <li className="logo">Abdulfatah.</li>
           <div className={navies ? "navbar" : "nav"}>
-          
             <ul ref={node1}>
               <li
                 className="lots"
@@ -297,7 +299,6 @@ const Navbar = () => {
               >
                 Contact
               </li>
-              <li></li>
             </ul>
           </div>
         </div>

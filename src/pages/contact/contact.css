@@ -8,7 +8,7 @@
   color: white;
   overflow-y: hidden;
   overflow: unset;
-  padding: 3rem 0 0 0;
+  margin: 3rem 0 0 0;
   background: rgb(16, 16, 16);
 }
 .outside {
@@ -127,7 +127,7 @@ main {
   font-family: "Questrial", sans-serif;
   font-size: 1.3rem;
   font-weight: 600;
-  margin: 0rem 0rem 1rem 0rem;
+  margin: 0rem 0rem 1rem -5.5rem;
 }
 .main-contact-head {
   font-family: "Questrial", sans-serif;
